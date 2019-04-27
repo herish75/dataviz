@@ -9,3 +9,8 @@ pacman::p_load(char = c("tidyverse", "sf", "viridis", "corrplot", "waffle", "ggh
 # For packages from GitHub ------------------------------------------------
 
 pacman::p_load_gh(char = "cttobin/ggthemr")
+
+remotes::install_github("cttobin/ggthemr")
+remotes::install_github("cttobin/ggthemr")
+
+remotes::install_github("hrbrmstr/hrbrthemes")
